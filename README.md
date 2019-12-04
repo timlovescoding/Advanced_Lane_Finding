@@ -1,9 +1,7 @@
-## Advanced Lane Finding
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-![Lanes Image](./examples/example_output.jpg)
----
+
 
 **Advanced Lane Finding Project**
+---
 
 The goals / steps of this project are the following:
 
@@ -23,7 +21,7 @@ The goals / steps of this project are the following:
 [image3]: ./output_readme/thresholding.png "thresholding"
 [image4]: ./output_readme/points.png "point map"
 [image5]: ./output_readme/warped.png "binary warp"
-[image6]: ./output_readme/binary_warped.png "road warp"
+[image6]: ./output_readme/warped2.png "road warp"
 [image7]: ./output_readme/hist.png "histogram"
 [image8]: ./output_readme/fit.png "fit"
 [image9]: ./output_readme/result.png "end result"
