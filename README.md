@@ -83,11 +83,26 @@ The end result of this project for an image:
 ## Pipeline (Applying to a Video stream):
 ---
 
-Here's a ![link to my video result](video1)
+Here's a ![link to my video result](./test_Trim.mp4 ).
+
 Note: GitHub cannot open such a large mp4 file, you can download it to play.
 
 ### Improvements for the future
 ---
+
+Current solution is able to deal with shadows and different shade of road colour pretty well as color thresholding has been done well. However, the major issues arises with the **fixed region of interest** indicates that the code will not do well in detecting lane lines on roads that has slighty narrow curves. This can be fixed by sharing the curvature and sliding windows outputs to the region of interest. For example, if the sliding windows is having trouble detecting the lane lines and the curvature before was decreasing at a rapid rate (narrow turn), we can have the region of interest to expand accordingly. 
+
+Aside from that, the code is done through procedural style programming. An Object Oriented Style of programming will be better to tackle this problem. We can create a LaneLine() class with all of the attributes of lane lines which gives us better organisation of code and also it will be easier to keep track of both attributes of the lane lines and update the sliding windows based off past data.
+
+
+### Conclusion
+---
+
+A more dynamic approach is neccesary to solve many of the challenges a self driving car will face on the road especially since the environment of the road is never fixed and many unforeseen issues may arise. 
+
+Due to the nature of the problem, I believe that the end goal/solution of a self driving car is one with  AI capabilities that **truly understand** how to detect lane lines just as how humans like us do and not through a manual search. Sensor Fusion will be a key to this problem for self-driving cars as information are collected from various sensors has to be combined for the car to make decisions just like how the brain combines information from our sense of sight,touch,hearing,et cetera, to formulate an action plan.
+
+I am very excited to explore more especially in the area of Deep Learning and Sensor Fusion, stay tune for more projects!
 
 
 
