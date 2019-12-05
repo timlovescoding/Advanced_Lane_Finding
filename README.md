@@ -83,7 +83,7 @@ The end result of this project for an image:
 ## Pipeline (Applying to a Video stream):
 ---
 
-Here's a ![link to my video result](./test_Trim.mp4 ).
+Here's a [link to my video result](./test_Trim.mp4 ).
 
 Note: GitHub cannot open such a large mp4 file, you can download it to play.
 
